@@ -22,6 +22,110 @@ menu:
       url: /api/latest/aws-integration/
       identifier: aws-integration
       generated: true
+    - name: AWS Integration - List log services
+      url: '#aws-integration-list-log-services'
+      identifier: aws-integration-aws-integration-list-log-services
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - ListAWSLogServices
+        unstable:
+          - v2
+        order: 1
+    - name: AWS Integration - Generate new external ID
+      url: '#aws-integration-generate-new-external-id'
+      identifier: aws-integration-aws-integration-generate-new-external-id
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - CreateNewAWSExternalID
+        unstable:
+          - v2
+        order: 2
+    - name: AWS Integration - List available namespaces
+      url: '#aws-integration-list-available-namespaces'
+      identifier: aws-integration-aws-integration-list-available-namespaces
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - ListAWSNamespaces
+        unstable:
+          - v2
+        order: 1
+    - name: AWS Integration - Update account config
+      url: '#aws-integration-update-account-config'
+      identifier: aws-integration-aws-integration-update-account-config
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - UpdateAWSAccount
+        unstable:
+          - v2
+        order: 5
+    - name: AWS Integration - Get account config
+      url: '#aws-integration-get-account-config'
+      identifier: aws-integration-aws-integration-get-account-config
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - GetAWSAccount
+        unstable:
+          - v2
+        order: 3
+    - name: AWS Integration - Delete account config
+      url: '#aws-integration-delete-account-config'
+      identifier: aws-integration-aws-integration-delete-account-config
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - DeleteAWSAccount
+        unstable:
+          - v2
+        order: 4
+    - name: AWS Integration - Create account config
+      url: '#aws-integration-create-account-config'
+      identifier: aws-integration-aws-integration-create-account-config
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - CreateAWSAccount
+        unstable:
+          - v2
+        order: 2
+    - name: AWS Integration - Get all account configs
+      url: '#aws-integration-get-all-account-configs'
+      identifier: aws-integration-aws-integration-get-all-account-configs
+      parent: aws-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - ListAWSAccounts
+        unstable:
+          - v2
+        order: 1
     - name: Generate a new external ID
       url: '#generate-a-new-external-id'
       identifier: aws-integration-generate-a-new-external-id
